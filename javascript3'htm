@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic Javascript</title>
+    </head>
+    <body>
+        <h2>Welcome to the World of Javascript</h2>
+        <script>
+            let name ="sunit" ;
+            let favuoriteSubject ="math" ;
+            console.log("my name is ${name}. I study in grade ${grade}. My favourite subject is ${favouritesubject}.");
+            </script>
+    </body>
+</html>
