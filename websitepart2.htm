@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <section>
+        <img class="mySlides" src="pic1.jpg" style="height:500px;">
+        <img class="mySlides" src="pic2.jpg" style="height:500px;">
+    </section>
+    <script>
+        var myIndex = 0;
+        carsoel();
+        function carsoel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.lenght; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.lenght) { myIndex = 1 }
+        }
+    </script>
+</body>
+
+</html>
